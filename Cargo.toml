@@ -1,0 +1,16 @@
+[package]
+name = "raytracing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winit = "0.29.12"
+wgpu = "0.19.3"
+env_logger = "0.10"
+tokio = { version = "1.0", features = ["full"] }
+bytemuck = { version = "1.0", features = ["derive"] }
+futures-channel = "0.3.31"
+tobj = "4.0.3"
+gltf = "1.4.1"
